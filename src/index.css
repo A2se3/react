@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active {
+    font-weight: 500;
+    border: 2px solid #1abc9c;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    padding: 5px;
+}
+
+
+.row {
+    @apply flex flex-wrap
+}
+
+.container {
+    @apply mx-auto px-2
+}
